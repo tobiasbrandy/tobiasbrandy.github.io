@@ -1,0 +1,334 @@
+/*Home y General.home*/
+
+body{
+	margin: 0px;
+	font-family: helvetica, arial;
+	line-height: 29px;
+	background-color: #dedfea;
+}
+
+header{
+	background-image: url("mar.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#pp{
+	text-align: center;
+	color: #ffffff;
+}
+
+#pp p{
+	margin-left: 18%;
+	margin-right: 18%;
+	padding-bottom: 8%;
+	font-size: 21px;
+	margin-bottom: 0px;
+}
+
+#pp img{
+	margin-top: 17%;
+	border-radius: 100%;
+	margin-bottom: 40px;
+}
+
+#pp button{
+	margin-bottom: 12%;
+	padding-left: 93px;
+	padding-right: 93px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 10px;
+	background-color: #4DB1DE;
+}
+
+#linkSection{
+	padding-bottom: 7%;
+}
+
+#pp a{
+	font-size: 25px;
+	text-decoration: none;
+	font-family: helvetica, arial;
+	text-align: center;
+	display: block;
+	color: orange;	
+}
+
+#navAfuera{
+  background-color: #50538E;
+	color: #ffffff;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+
+}
+
+#navAfuera a:hover{
+	color: white;
+}
+
+#navNone{
+	display: none;
+}
+
+h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+#main{
+	margin: 7%;
+	padding-top: 3%;
+}
+
+#principal{
+	border-bottom: 2px solid #B3B3B3;
+}
+
+#encabezado{
+	text-align: center;
+}
+
+#principal button{
+	padding-left: 93px;
+	padding-right: 93px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 10px;
+	margin-bottom: 10%;
+	background-color: #4DB1DE;
+	margin-top: 4%;
+}
+
+#principal a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: helvetica, arial;
+	text-align: center;
+	display: block;
+}
+
+h2{
+	margin-bottom: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#articulos img{
+	border-radius: 26px;
+}
+
+#articulos div{
+	width: 660px;
+	margin: auto;
+}
+
+#articulos article{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+
+}
+
+#articulos p{
+	text-align:center;
+	width: 268px;
+}
+
+footer{
+	background-image: url(mar.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	clear: both;
+}
+
+footer p{
+	margin: 0px;
+}
+
+footer ul{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 4%;
+}
+
+footer li{
+	display: inline;
+	padding: 3px;
+}
+
+footer p{
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*Pricing.home*/
+
+
+table{
+	width: 660px;
+	margin: auto;
+	margin-bottom: 4%;
+	text-align: center;
+	border-color: blue;	
+}
+
+table caption{
+	font-size: 25px;
+	padding-bottom: 10px;
+	padding-top: 7%;
+}
+
+#textoTabla{
+	width: 660px;
+	margin: auto;
+	margin-bottom: 4%;
+}
+
+#textoTabla p{
+	text-align: justify;
+	line-height: 34px;
+}
+
+/*Faq.home*/
+
+#imgFaq{
+	width: 310px;
+	margin: auto;
+}
+
+#faqMain ol{
+	text-align: left;
+	list-style-type: lower-greek;
+}
+
+#faqMain a{
+	text-decoration: none;
+	color: orange;
+}
+
+#faqMain{
+	padding-top: 3%;
+}
+
+/*Register.home*/
+
+#register{
+	width: 350px;
+	margin: auto;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	line-height: 45px;
+	text-align: center;
+}
+
+#centrarRegister{
+	width: 310px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#nombre{
+	width: 80px;
+}
+
+#apellido{
+	width: 80px;
+}
+
+#telefono{
+	width: 190px;
+}
+
+#mail{
+	width: 215px;
+}
+
+#cumple{
+	width: 160px;
+}
+
+#register input{
+	border: 3px solid gray;
+	border-radius: 8px;
+	background-color: lightgray;
+}
+
+#register #botonEnviar{
+	border: 1px black solid;
+	border-radius: 3px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	background-color: #5454B1;
+}
+
+/*home.Medio.css*/
+
+#logo{
+	width: 143px;	
+}
+
+#navAfuera ul{
+	display: inline;
+	text-decoration: none;
+	float: right;
+	width: 440px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+#navAfuera li{
+	display: inline;
+	font-size: 25px;
+	padding-right: 3%;
+}
+
+#navAfuera a{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+/*login.home*/
+
+#logLogin{
+	width: 500px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+#usuario{
+	width: 80px;
+}
+
+#pass{
+	width: 80px;	
+}
+
+#logLogin input{
+	border: 3px solid gray;
+	border-radius: 8px;
+	background-color: lightgray;
+}
+
+#logLogin #enviarLogin{
+	border: 1px black solid;
+	border-radius: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	background-color: #5454B1;
+}
